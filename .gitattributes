@@ -1,0 +1,5 @@
+Tutorial/**/*.unity filter=lfs diff=lfs merge=lfs -text
+Tutorial/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+Tutorial/**/*.png filter=lfs diff=lfs merge=lfs -text
+Tutorial/**/*.exr filter=lfs diff=lfs merge=lfs -text
+Tutorial/**/*.blend filter=lfs diff=lfs merge=lfs -text

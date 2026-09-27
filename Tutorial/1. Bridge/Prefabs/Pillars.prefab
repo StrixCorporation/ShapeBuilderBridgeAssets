@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3361764136282948304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3838302924458837266}
+  - component: {fileID: 7282817119639408741}
+  - component: {fileID: 166320694057154628}
+  - component: {fileID: 3167392527253947675}
+  - component: {fileID: 2780757286888566794}
+  - component: {fileID: 9141807888040272139}
+  m_Layer: 0
+  m_Name: Pillars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3838302924458837266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361764136282948304}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3100, y: 0, z: -1986.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7282817119639408741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361764136282948304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45938cbbf0f5ed468ff647fd3be187a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Strix.ShapeBuilder.SplineBuilder008.BezierSpline
+  splines:
+  - {x: 0, y: 0, z: 0}
+  - {x: -0, y: -1, z: -0}
+  looped: 0
+  enableGizmo: 1
+  gizmoFade: 1
+  gizmoOnlyWhenSelected: 0
+  m_defaultTangentMode: 4
+  inTengants:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  outTengant:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  tengantMode: 0400000004000000
+--- !u!23 &166320694057154628
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361764136282948304}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2220caea295a3644f97dfcec6b5c4f74, type: 2}
+  - {fileID: 2100000, guid: 2220caea295a3644f97dfcec6b5c4f74, type: 2}
+  - {fileID: 2100000, guid: 2220caea295a3644f97dfcec6b5c4f74, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &3167392527253947675
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361764136282948304}
+  m_Mesh: {fileID: 0}
+--- !u!114 &2780757286888566794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361764136282948304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00431a7772641834c8908f1fb37ff375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Strix.ShapeBuilder.OutlineBezierShape
+  _resolution: 6
+  _resSize: 0.1
+  _autoComputeResolution: 0
+  _radius: 0.5
+  _scale: {x: 1, y: 1}
+  _animationCurveScaleOffsetX:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 8
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6790266
+      value: 8
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 8
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 8
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _animationCurveScaleOffsetY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6790266
+      value: 3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 8
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 8
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _startFaceRotation: {x: 0, y: 0, z: 0, w: 1}
+  _startFaceProjectionOffset: 60.6
+  _startEndRotation: {x: 0, y: 0, z: 0, w: 1}
+  _polyNum: 4
+  _removeIntersectingSlices: 1
+  _holeShape: 0
+  _holeSize: 0.5
+  _useCustomProfile: 1
+  _verticalProfile: {fileID: 62282049616355825, guid: 5b0f74bb8cc1c514cbbad9d09e41c86c, type: 3}
+  _pathResolution: 1000
+  _isSubdividedBySpline: 0
+  _angleResThrehold: 0
+  _scaleOffsetSimplifyThreshold: 0.01
+  _pathFrameRotationOffset: 0
+  _pathFrameReferenceUp: {x: 0, y: 1, z: 0}
+  _enableCurvedBorder: 0
+  _curvedBorderSize: 0.2
+  _curvedBorderPrecision: 3
+  _minCurveAngleThreshold: 25
+  _maxCurveAngleThreshold: 170
+  _enableStrips: 0
+  _stripCount: 2
+  _stripSpace: 0
+  _autoSubdivideStrip: 0
+  _stripResSize: 0.5
+  _subdivideStripsPerSpline: 0
+  _startRotationOffset: 0
+  _radialSmoothAngle: 180
+  _longitudinalSmoothAngle: 180
+  _displayMeshNormals: 0
+  _meshNormalDisplaySize: 0.1
+  _indexFormat: 1
+  _autoGenerateOnChange: 0
+  _useQueuedRefresh: 1
+  _globalQueuedRefreshesPerTick: 8
+  _uvType: 0
+  _uvScalePlanar: {x: 1, y: 1}
+  _uvOffsetPlanar: {x: 0, y: 0}
+  _scaledNormalizedLengthAxis: 2
+  _normalizedUvAxis: 1
+  _normalizedUvSpacingX: 0
+  _proportionalLengthFit: 0
+  _proportionalUvSpacingX: 0
+  _sideUvXAxisMode: 1
+  _sideUvYAxisMode: 4
+  _sideUvPreserveRatio: 0
+  _sideUvSpacingX: 0
+  _sideUvTileXCount: 30
+  _sideUvTileYCount: 36
+  _sideUvTileCount: 50
+  _sideBySideUvSpacing: 0
+  _uvSideUseCapShape: 0
+  _uvSideRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _uvSideRotation: 0
+  _uvStartCapRect:
+    serializedVersion: 2
+    x: 0.5
+    y: 0
+    width: 0.5
+    height: 0.5
+  _uvStartCapRotation: 0
+  _normalizeStartCapUvs: 1
+  _uvEndCapRect:
+    serializedVersion: 2
+    x: 0.5
+    y: 0.5
+    width: 0.5
+    height: 0.5
+  _uvEndCapRotation: 0
+  _normalizeEndCapUvs: 1
+  _uvLoopRects: []
+  _uvLoopUseCapShape: 
+  _uvLoopRotations: []
+  _materialPerCaps: 1
+  _sideMaterial: {fileID: 0}
+  _startCapMaterial: {fileID: 0}
+  _endCapMaterial: {fileID: 0}
+  minTest: 0
+  maxTest: 1
+--- !u!114 &9141807888040272139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361764136282948304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2f06ff61a32af498cba10d9650ae9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Strix.ShapeBuilder.Bridge.Pillars
+  outlineBezierShape: {fileID: 2780757286888566794}
+  bezierSpline: {fileID: 7282817119639408741}
+  height: 1
+  referenceResolution: 50
+  autoRefresh: 1
+  debounceTransformRefresh: 1
+  transformRefreshDelay: 0.15
+  heightRefreshThreshold: 0.01
+  disableOutlineAutoRefresh: 1
+  minPillarsHeight: 1
+  targetY: 1

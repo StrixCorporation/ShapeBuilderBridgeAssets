@@ -1,0 +1,13 @@
+Quaternius – Cars Pack (8 cars)
+Author: Quaternius
+Source: https://quaternius.com/packs/cars.html
+
+License: CC0 1.0 Universal (Public Domain Dedication)
+Official text: https://creativecommons.org/publicdomain/zero/1.0/
+
+Summary:
+- No rights reserved. You may copy, modify, distribute, and use these files, including commercially, without permission.
+- Attribution is not required by the license.
+
+Modifications:
+- Imported to Unity; material/scale tweaks; LODs; asset renaming.
